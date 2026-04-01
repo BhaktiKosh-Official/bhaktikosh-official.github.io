@@ -6,58 +6,75 @@
     <title>Privacy Policy - BhaktiKosh</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background-color: #FFF8F0; margin: 0; padding: 20px; }
-        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
-        h1 { color: #8B4513; text-align: center; margin-bottom: 5px; }
-        .date { text-align: center; color: #777; font-size: 0.9em; margin-bottom: 30px; }
-        h2 { color: #5D4037; margin-top: 30px; border-bottom: 2px solid #FFE4B5; padding-bottom: 5px; font-size: 1.3em; }
-        p { margin-bottom: 15px; }
-        ul { margin-bottom: 15px; padding-left: 20px; }
-        li { margin-bottom: 8px; }
+        .container { max-width: 850px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        h1 { color: #8B4513; text-align: center; margin-bottom: 5px; font-size: 2.2em; }
+        .date { text-align: center; color: #777; font-size: 0.95em; margin-bottom: 35px; }
+        h2 { color: #5D4037; margin-top: 35px; border-bottom: 2px solid #FFE4B5; padding-bottom: 8px; font-size: 1.4em; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul { margin-bottom: 15px; padding-left: 25px; }
+        li { margin-bottom: 10px; }
         a { color: #D35400; text-decoration: none; font-weight: bold; }
         a:hover { text-decoration: underline; }
+        .highlight { background-color: #FFF3E0; padding: 15px; border-left: 4px solid #E67E22; margin-top: 20px; font-style: italic; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy for BhaktiKosh</h1>
-        <p class="date"><strong>Effective Date:</strong> 21 February 2026</p>
+        <p class="date"><strong>Effective Date:</strong> 01 April 2026</p>
 
-        <h2>1. Introduction</h2>
-        <p>Welcome to BhaktiKosh ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed when you use the BhaktiKosh mobile application (the "App"). By using the App, you agree to the collection and use of information in accordance with this policy.</p>
+        <h2>1. Introduction & Purpose of the App</h2>
+        <p>Welcome to <strong>BhaktiKosh</strong> ("we," "our," or "us"), developed by <strong>Sachin Dubey</strong>. BhaktiKosh is a dedicated devotional and educational mobile application designed to provide users with access to ancient Hindu spiritual literature, including Bhajans, Aartis, Mantras, and original devotional content. Our primary purpose is to promote spiritual well-being, cultural education, and peace.</p>
+        <p>We are deeply committed to protecting your privacy. This Privacy Policy strictly details what information is collected, how it is used, and the permissions required when you use the BhaktiKosh application (the "App").</p>
 
-        <h2>2. Information We Collect</h2>
-        <p>BhaktiKosh is primarily a devotional and educational application. We prioritize your privacy and minimize data collection:</p>
+        <h2>2. Information We Collect (And What We Don't)</h2>
+        <p>We believe in absolute transparency and data minimization. BhaktiKosh is designed to function with maximum respect for user privacy:</p>
         <ul>
-            <li><strong>Personal Data:</strong> We do not require you to create an account, nor do we collect personally identifiable information (PII) such as your name, email address, or phone number for the general use of the App.</li>
-            <li><strong>Usage Data and Analytics:</strong> We may automatically collect non-personal data regarding your interaction with the App, including device type, operating system version, unique device identifiers, and crash reports. This data is utilized solely for improving the App's performance and user experience.</li>
+            <li><strong>No Personal Identifiable Information (PII):</strong> We <strong>DO NOT</strong> require you to create an account, register, or provide any personal data such as your name, email address, phone number, or physical address to use the core features of the App.</li>
+            <li><strong>Local Device Storage:</strong> Any preferences you set within the App (such as saving "Favorite" Bhajans, app themes, or font sizes) are stored locally on your device's internal storage. We do not transmit or store this personal preference data on our external servers.</li>
+            <li><strong>Automated Usage & Crash Data:</strong> To ensure the App remains bug-free and efficient, we may automatically collect anonymous diagnostic data. This includes device type, operating system version, crash reports, and generic app usage statistics. This data cannot be used to identify you personally.</li>
         </ul>
 
-        <h2>3. App Permissions and Device Features</h2>
-        <p>To provide specific features, BhaktiKosh may request the following permissions:</p>
+        <h2>3. App Permissions Explained</h2>
+        <p>To provide a seamless and rich devotional experience, BhaktiKosh requires the following specific device permissions. We only request permissions that are absolutely necessary for the App's UI and features to function:</p>
         <ul>
-            <li><strong>Internet/Network Access:</strong> Required to fetch daily quotes, religious content, and updates from our servers.</li>
-            <li><strong>Audio and Media:</strong> The App utilizes Expo AV and Expo Speech to play Bhajans, Aartis, Videos, and text-to-speech Mantras. No audio is recorded from your microphone.</li>
+            <li><strong>Internet & Network Access:</strong> Required to fetch dynamic content (like daily quotes, updated Bhajans) and to load thumbnail images securely hosted on our cloud servers (e.g., Cloudinary).</li>
+            <li><strong>Audio & Media Playback:</strong> The App uses <em>Expo AV</em> and <em>Expo Speech</em> modules to play devotional audio, embedded videos, and provide Text-to-Speech (TTS) functionalities for Mantras. <br><em>*Note: The App ONLY requests playback permissions. We DO NOT request microphone access, and we NEVER record or listen to your voice.</em></li>
+            <li><strong>Wake Lock / Foreground Service (Optional):</strong> Required only if you are playing a continuous audio track or Bhajan so that the music does not stop when your phone screen turns off.</li>
         </ul>
 
-        <h2>4. Third-Party Services</h2>
-        <p>The App is built using the React Native and Expo framework. We may use third-party services that collect information used to identify you to provide core functionalities or analyze how our App is used.</p>
-        <p>Links to the privacy policies of third-party service providers used by the App:</p>
+        <h2>4. Content, Copyright & Intellectual Property</h2>
+        <p>BhaktiKosh strictly adheres to intellectual property laws. The text-based content provided in the App falls into two categories:</p>
         <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a></li>
-            <li><a href="https://expo.dev/privacy" target="_blank">Expo</a></li>
+            <li><strong>Public Domain Content:</strong> Ancient texts, Stutis, and Bhajans written by historical saints (e.g., Tulsidas, Surdas, Kabir, Mirabai, Adi Shankaracharya). These are centuries old and legally reside in the public domain.</li>
+            <li><strong>Original Content:</strong> Exclusive modern devotional texts marked as "(Original)" are authored specifically for BhaktiKosh and are the intellectual property of the developer.</li>
         </ul>
+        <p>We do not host or distribute copyrighted commercial audio tracks (such as Bollywood movie songs or private music label albums). If you believe any content within the App infringes upon your copyright, please contact us immediately for swift removal.</p>
 
-        <h2>5. Security of Your Data</h2>
-        <p>We value your trust in providing us with your data (such as app preferences). While we use commercially acceptable means to protect it, please remember that no method of transmission over the internet or method of electronic storage is 100% secure.</p>
+        <h2>5. Third-Party Services & UI Links</h2>
+        <p>The App is built utilizing the <strong>React Native</strong> and <strong>Expo</strong> frameworks. While the App's User Interface (UI) is custom-built, we rely on secure third-party infrastructure to deliver content safely. These services may collect generic device data as per their own privacy policies:</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a> (For generic Android OS interactions)</li>
+            <li><a href="https://expo.dev/privacy" target="_blank">Expo</a> (Core app framework and crash analytics)</li>
+            <li><a href="https://cloudinary.com/privacy" target="_blank">Cloudinary</a> (For secure image/thumbnail hosting)</li>
+        </ul>
+        <p>Additionally, if the App contains UI buttons linking to external platforms (such as YouTube videos or social media pages), please be aware that we do not govern the privacy policies of those external websites.</p>
 
-        <h2>6. Children's Privacy</h2>
-        <p>BhaktiKosh provides family-friendly, devotional content. We do not knowingly collect personally identifiable information from children under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we can take necessary actions.</p>
+        <h2>6. Security of Your Data</h2>
+        <p>We value your trust. All network requests made by the App to fetch content are encrypted using standard HTTPS protocols. While we use commercially acceptable means to protect your experience, please remember that no method of electronic transmission is 100% secure.</p>
 
-        <h2>7. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        <h2>7. Children's Privacy (COPPA Compliance)</h2>
+        <p>BhaktiKosh is a safe, family-friendly application containing purely spiritual and educational content. We do not display targeted advertisements, nor do we knowingly collect any personal data from children under the age of 13. The App is entirely safe for users of all age groups.</p>
 
-        <h2>8. Contact Us</h2>
-        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: <strong>[sachindubey9336@gmail.com]</strong></p>
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>As we add new features to BhaktiKosh, we may update our Privacy Policy. We will notify users of any significant changes by updating the "Effective Date" at the top of this page. You are advised to review this policy periodically.</p>
+
+        <div class="highlight">
+            <h2>9. Contact the Developer</h2>
+            <p>If you have any questions, suggestions, legal concerns, or feedback regarding this Privacy Policy or the BhaktiKosh App, please do not hesitate to reach out directly:</p>
+            <p><strong>Developer:</strong> Sachin Dubey<br>
+            <strong>Email:</strong> <a href="mailto:sachindubey9336@gmail.com">sachindubey9336@gmail.com</a></p>
+        </div>
     </div>
 </body>
 </html>
