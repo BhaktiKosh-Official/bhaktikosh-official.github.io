@@ -87,14 +87,14 @@
         <h2>1. Data Safety Declaration (Google Play Compliance)</h2>
         <p>Transparency is our priority. In compliance with modern Data Safety standards, here is a clear breakdown of how user data is handled:</p>
         <ul>
-            <li><span class="safe-text">No Personal Data Collected:</span> We do not collect, process, or store Personally Identifiable Information (PII) such as your name, email address, phone number, physical address, or location.</li>
+            <li><span class="safe-text">No Personal Identifiable Information (PII):</span> We do not collect your name, email address, phone number, or physical location.</li>
+            <li><span class="safe-text">Anonymous Device Identifiers:</span> To send you timely devotional alerts (Push Notifications), we securely collect an anonymous "Device Token". This token cannot be used to identify you personally.</li>
             <li><span class="safe-text">No Account Required:</span> The App functions fully without requiring user registration or social media logins.</li>
-            <li><span class="safe-text">No Data Shared with Third Parties:</span> We do not sell, rent, or share any user data with advertising networks or third-party marketing companies.</li>
-            <li><span class="safe-text">Data Encryption in Transit:</span> Any communication between the App and our image servers occurs over a secure, encrypted connection (HTTPS).</li>
+            <li><span class="safe-text">Data Encryption in Transit:</span> Any communication between the App and our backend servers occurs over a secure, encrypted connection (HTTPS).</li>
         </ul>
 
         <h2>2. Data We Process Locally</h2>
-        <p>To enhance your experience, the App utilizes <strong>Local Device Storage</strong>. When you mark a Bhajan as a "Favorite" or adjust display settings (such as text size), this data is saved strictly on your device's internal memory. <strong>This local data is never uploaded to our servers.</strong> You can delete this data at any time by clearing the App's storage cache or uninstalling the App.</p>
+        <p>To enhance your experience, the App utilizes <strong>Local Device Storage</strong> for your preferences. When you mark a Bhajan as a "Favorite" or adjust display settings (such as text size), this data is saved strictly on your device's internal memory. The only data transmitted to our secure servers is the anonymous device token required for Push Notifications. You can clear local data at any time by clearing the App's storage cache.</p>
 
         <h2>3. App Permissions Explained</h2>
         <p>We believe in the principle of least privilege. The App only requests permissions that are strictly necessary for its core functionalities:</p>
@@ -117,9 +117,11 @@
         <h2>4. Third-Party Frameworks & Services</h2>
         <p>To ensure app stability and deliver content, we utilize industry-standard, secure third-party services. These services may collect anonymous crash diagnostics (non-identifiable data) to help us fix bugs:</p>
         <ul>
-            <li><strong>Expo Framework:</strong> Utilized for app architecture and crash analytics. (<a href="https://expo.dev/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Expo Framework:</strong> Utilized for app architecture and analytics. (<a href="https://expo.dev/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Firebase Cloud Messaging (FCM):</strong> Used to securely deliver push notifications to your device. (<a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Supabase:</strong> Used as a secure backend database to temporarily store the anonymous device notification tokens. (<a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a>)</li>
             <li><strong>Cloudinary:</strong> Utilized purely as a Content Delivery Network (CDN) to host static images. (<a href="https://cloudinary.com/privacy" target="_blank">Privacy Policy</a>)</li>
-            <li><strong>Google Play Services:</strong> Required for core Android OS compatibility and notification delivery. (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Google Play Services:</strong> Required for core Android OS compatibility. (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
         </ul>
 
         <h2>5. Content Authenticity & Copyright</h2>
