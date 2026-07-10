@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy & Data Safety | BhaktiKosh</title>
+    <title>Privacy Policy & Data Safety | BhaktiKhoj</title>
     <style>
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
@@ -77,64 +77,75 @@
     <div class="container">
         <h1>Privacy Policy & Data Safety</h1>
         <div class="doc-meta">
-            <strong>Application:</strong> BhaktiKosh<br>
+            <strong>Application:</strong> BhaktiKhoj (formerly BhaktiKosh)<br>
             <strong>Developer:</strong> Sachin Dubey<br>
-            <strong>Effective Date:</strong> April 02, 2026
+            <strong>Effective Date:</strong> July 10, 2026
         </div>
 
-        <p>This Privacy Policy applies to the <strong>BhaktiKosh</strong> mobile application (the "App"). We are highly committed to providing a secure, educational, and spiritually enriching experience while ensuring the absolute privacy of our users. This document clearly outlines our practices regarding data collection, data safety, and system permissions.</p>
+        <p>This Privacy Policy applies to the <strong>BhaktiKhoj</strong> mobile application (formerly known as BhaktiKosh). We have recently undergone a major update to enhance user interface, add interactive features, and rebrand our app. We are highly committed to providing a secure, educational, and spiritually enriching experience while ensuring the absolute privacy of our users. This document clearly outlines our practices regarding data collection, data safety, and system permissions.</p>
 
         <h2>1. Data Safety Declaration (Google Play Compliance)</h2>
         <p>Transparency is our priority. In compliance with modern Data Safety standards, here is a clear breakdown of how user data is handled:</p>
         <ul>
             <li><span class="safe-text">No Personal Identifiable Information (PII):</span> We do not collect your name, email address, phone number, or physical location.</li>
             <li><span class="safe-text">Anonymous Device Identifiers:</span> To send you timely devotional alerts (Push Notifications), we securely collect an anonymous "Device Token". This token cannot be used to identify you personally.</li>
+            <li><span class="safe-text">Advertising & Affiliate Data:</span> Trusted third-party services like Google AdMob or Amazon may use advertising IDs or cookies to serve relevant ads or track affiliate referrals (details in Section 5).</li>
             <li><span class="safe-text">No Account Required:</span> The App functions fully without requiring user registration or social media logins.</li>
             <li><span class="safe-text">Data Encryption in Transit:</span> Any communication between the App and our backend servers occurs over a secure, encrypted connection (HTTPS).</li>
         </ul>
 
         <h2>2. Data We Process Locally</h2>
-        <p>To enhance your experience, the App utilizes <strong>Local Device Storage</strong> for your preferences. When you mark a Bhajan as a "Favorite" or adjust display settings (such as text size), this data is saved strictly on your device's internal memory. The only data transmitted to our secure servers is the anonymous device token required for Push Notifications. You can clear local data at any time by clearing the App's storage cache.</p>
+        <p>To enhance your experience, the App utilizes <strong>Local Device Storage</strong> for your preferences. When you mark a Bhajan as a "Favorite", adjust display settings, save high scores in the "Bhakti Runner" game, or generate video IDs for playback, this data is processed and saved strictly on your device's internal memory. The only data transmitted to our secure servers is the anonymous device token required for Push Notifications. You can clear local data at any time by clearing the App's storage cache.</p>
 
         <h2>3. App Permissions Explained</h2>
         <p>We believe in the principle of least privilege. The App only requests permissions that are strictly necessary for its core functionalities:</p>
         
         <h3>Permissions We Request:</h3>
         <ul>
-            <li><strong>Internet & Network State:</strong> Required exclusively to fetch daily textual content and to securely load UI images and thumbnails from our Cloudinary CDN.</li>
+            <li><strong>Internet & Network State:</strong> Required exclusively to stream video content, load UI images, fetch dynamic data (such as textual content, image links, and quiz questions) from our secure GitHub repository, display advertisements, and seamlessly check for Over-The-Air (OTA) or In-App updates.</li>
             <li><strong>Push Notifications (POST_NOTIFICATIONS):</strong> For Android 13+ devices, the App may request permission to send you occasional devotional quotes or festival alerts. This is purely optional and can be disabled at any time via your device settings.</li>
         </ul>
 
         <h3>Permissions We DO NOT Request:</h3>
         <p>To ensure your absolute privacy, the App <strong>does not</strong> and will never request access to:</p>
         <ul>
-            <li><span class="highlight-text">Microphone / Audio Recording:</span> (The App only <em>plays</em> text-to-speech audio; it never listens or records).</li>
+            <li><span class="highlight-text">Microphone / Audio Recording:</span> (The App only <em>plays</em> audio/video; it never listens or records).</li>
             <li><span class="highlight-text">Camera / Photos / Media Gallery</span></li>
             <li><span class="highlight-text">Device Location (GPS)</span></li>
             <li><span class="highlight-text">Contacts / Phonebook</span></li>
         </ul>
 
-        <h2>4. Third-Party Frameworks & Services</h2>
-        <p>To ensure app stability and deliver content, we utilize industry-standard, secure third-party services. These services may collect anonymous crash diagnostics (non-identifiable data) to help us fix bugs:</p>
+        <h2>4. Interactive Features, Media & Updates</h2>
+        <p>Our recent major update introduces new ways to engage with spiritual content:</p>
         <ul>
-            <li><strong>Expo Framework:</strong> Utilized for app architecture and analytics. (<a href="https://expo.dev/privacy" target="_blank">Privacy Policy</a>)</li>
-            <li><strong>Firebase Cloud Messaging (FCM):</strong> Used to securely deliver push notifications to your device. (<a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a>)</li>
-            <li><strong>Supabase:</strong> Used as a secure backend database to temporarily store the anonymous device notification tokens. (<a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a>)</li>
-            <li><strong>Cloudinary:</strong> Utilized purely as a Content Delivery Network (CDN) to host static images. (<a href="https://cloudinary.com/privacy" target="_blank">Privacy Policy</a>)</li>
-            <li><strong>Google Play Services:</strong> Required for core Android OS compatibility. (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>YouTube Integration (Official Library):</strong> The App allows users to watch spiritual videos directly within the application. We extract video IDs from URLs and utilize the official YouTube library/API for native playback. We do not host these videos on our servers, nor do we collect your personal YouTube account data. By using this video feature, you agree to be bound by the <a href="https://www.youtube.com/t/terms" target="_blank">YouTube Terms of Service</a> and Google's Privacy Policy.</li>
+            <li><strong>Bhakti Runner Game & Quizzes:</strong> We offer a spiritually themed runner game and quizzes. The quiz questions and configurations are dynamically fetched securely from GitHub. No personal gameplay data is transmitted to us.</li>
+            <li><strong>In-App & OTA Updates:</strong> To ensure you always have the most secure and feature-rich version, the App utilizes Over-The-Air (OTA) and Google Play In-App Updates mechanisms.</li>
+            <li><strong>In-App Instructions:</strong> Wherever the App fetches online data or displays dynamic content, we provide clear on-screen instructions and guidelines to ensure a transparent user experience.</li>
         </ul>
 
-        <h2>5. Content Authenticity & Copyright</h2>
-        <p>The literature provided within BhaktiKosh consists exclusively of Public Domain works (ancient texts by historical saints) and Original texts authored by the Developer. The App does not host, stream, or distribute copyrighted commercial music or third-party intellectual property.</p>
+        <h2>5. Third-Party Frameworks & Monetization</h2>
+        <p>To ensure app stability, deliver content, and support development costs, we utilize industry-standard, secure third-party services:</p>
+        <ul>
+            <li><strong>YouTube API Services:</strong> Utilized to stream video content via the official player. (<a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>)</li>
+            <li><strong>Google AdMob:</strong> Used to display banner and interstitial advertisements. AdMob may collect and use advertising identifiers to serve personalized ads. (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Amazon Affiliate Program:</strong> We participate in the Amazon Associates program. The App contains affiliate links to relevant products. If you click and purchase, Amazon uses cookies to track the referral, and we may earn a small commission at no extra cost to you. (<a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200534380" target="_blank">Privacy Notice</a>)</li>
+            <li><strong>Expo Framework & Google Play Services:</strong> Utilized for app architecture, OTA updates, and core Android OS compatibility.</li>
+            <li><strong>Firebase Cloud Messaging (FCM) & Supabase:</strong> Used to securely deliver push notifications and temporarily store anonymous device tokens.</li>
+            <li><strong>Cloudinary & GitHub:</strong> Utilized as our secure backend infrastructure. GitHub acts as a repository to manage and deliver app content (text, image links, quiz data), while Cloudinary serves as a Content Delivery Network (CDN) to securely host static images.</li>
+        </ul>
 
-        <h2>6. Children's Privacy (COPPA)</h2>
-        <p>BhaktiKosh is a safe, family-friendly application. We do not knowingly collect personal data from anyone, including children under the age of 13. The App is deemed safe and educational for all demographics.</p>
+        <h2>6. Content Authenticity & Copyright</h2>
+        <p>The literature provided within BhaktiKhoj consists exclusively of Public Domain works (ancient texts by historical saints) and Original texts authored by the Developer. For video content, we strictly utilize YouTube's official library and ecosystems. The App does not host, stream, or distribute copyrighted commercial music or third-party intellectual property on its own servers.</p>
 
-        <h2>7. Policy Updates</h2>
+        <h2>7. Children's Privacy (COPPA)</h2>
+        <p>BhaktiKhoj is a safe, family-friendly application. We do not knowingly collect personal data from anyone, including children under the age of 13. The App and its features, including the Bhakti Runner game, are deemed safe and educational for all demographics.</p>
+
+        <h2>8. Policy Updates</h2>
         <p>We may update this Privacy Policy periodically. Any modifications will be posted directly on this page, and the "Effective Date" will be updated accordingly. We encourage you to review this policy periodically for any changes.</p>
 
         <div class="footer-box">
-            <h3 style="margin-top: 0;">8. Contact the Developer</h3>
+            <h3 style="margin-top: 0;">9. Contact the Developer</h3>
             <p>If you have any questions, concerns regarding Data Safety, or feedback about the App, please contact me directly:</p>
             <p style="margin-bottom: 0;">
                 <strong>Developer:</strong> Sachin Dubey<br>
